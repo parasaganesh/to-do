@@ -98,4 +98,15 @@ h1 {
 }
 
 .edit-btn, .delete-btn, .complete-btn {
-    backgro
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #888;
+}
+
+.edit-btn:hover,
+.delete-btn:hover,
+.complete-btn:hover {
+    color: #333;
+}
